@@ -1,0 +1,6 @@
+For one char, no. For multiple character strings and string arrays, 
+then the second option is much faster in the long run. 
+
+The reason is that sb_concat increases memory and adds the strings in
+one sitting rather than strcat which constantly keeps checking the 
+null character

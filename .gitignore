@@ -1,0 +1,20 @@
+#File extensions to ignore
+*.pdf
+*.png
+*.tar
+*.zip
+
+#Main folders to ignore
+project2
+
+#Sub folders to ignore
+assignment2/work
+assignment3/wcat[edit].c
+project1/project_1
+project1/Test
+project3/notes
+project3/version0
+project3/work
+
+#Random files to ignore
+README
